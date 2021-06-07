@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Workshop HTML</title>
 </head>
 <body>
-    <h1>Portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Resume">Resume</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
+    <center>
+        <h1>Portfolio</h1>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
         
-        <section>
-            <a name="Home"></a>
-            <h1>Home</h1>
-            <iframe 
+        <main>
+            
+            <section>
+                <a name="Home"></a>
+                <h1>Home</h1>
+                <iframe 
                 width="560" 
                 height="315"
                 src="https://www.youtube.com/embed/tS8nzAQg_8k"
@@ -37,7 +40,7 @@
         <section>
             <a name="About"></a>
             <h1>About</h1>
-            <p>Hello I'am Omar Yakoubi</p>
+            <p>Hello I'am <span class="highlighted">Omar Yakoubi</span></p>
             <p>A Full Stack Web Developer</p>
         </section>
         
@@ -52,16 +55,17 @@
             <h1>Contact</h1>
             <form>
                 <label for="name">Your Name: </label>
-                <input type="text" placeholder="name"> <br> <br>
+                <input type="text" placeholder="Jhon Doe"> <br> <br>
                 <label for="email">Your Email: </label>
-                <input type="email" placeholder="email"> <br> <br>
+                <input type="email" placeholder="jhon@doe.com"> <br> <br>
                 <button type="submit">Send</button>
             </form>
         </section>
     </main>
     
     <footer>
-        <p>Made with ❤️ by Omar Yakoubi</p>
+        <p>Made with ❤️ by <span class="highlighted">Omar Yakoubi</span></p>
     </footer>
+</center>
 </body>
 </html>

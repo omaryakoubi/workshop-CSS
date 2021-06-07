@@ -1,0 +1,30 @@
+html {
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
+    background-color: rgb(243, 240, 228);
+}
+
+#navbar * {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 19px;
+    transform: scale(10);
+    transition: all 0.3s ease-in-out 0.2s;
+
+}
+
+#navbar * :hover {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 23px;
+    color: blue;
+    opacity: 1;
+    transform: scale(3);
+    transition: all 0.1s ease-in-out 0.1s;
+}
+
+.highlighted{
+    color: blue;
+}
